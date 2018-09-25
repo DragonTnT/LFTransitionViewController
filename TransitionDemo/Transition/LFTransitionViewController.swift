@@ -25,7 +25,7 @@ enum ViewControllerAnimationType {
 
 class LFTransitionViewController: UIViewController {
     
-    var transitionStyle: LFTransitionStyle!
+    var transitionStyle: LFTransitionStyle = .scaleChange
     
     init(transitionStyle: LFTransitionStyle) {
         super.init(nibName: nil, bundle: nil)

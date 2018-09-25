@@ -9,7 +9,7 @@
 import UIKit
 
 class TransitionForPosition: NSObject,UIViewControllerAnimatedTransitioning {
-    var transitionStyle: LFTransitionStyle!   //动画效果
+    var transitionStyle: LFTransitionStyle = .scaleChange   //动画效果
     var transitionDuration: TimeInterval   //动画时间
     var downToUp = Bool()         //present方向，默认为从下到上
     let isPresenting :Bool        //true为present,false为dismiss
