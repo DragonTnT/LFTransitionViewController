@@ -57,8 +57,6 @@ extension LFTransitionViewController: UIViewControllerTransitioningDelegate {
             return TransitionForScaleOrAlpha(type: .present, isScaleChange: false)
         case .topToBottom,.bottomToTop,.leftToRight,.rightToLeft:
             return TransitionForPosition(isPresenting: true, transitionStyle: transitionStyle)
-        default:
-            return nil
         }
     }
     //收起动画
@@ -72,8 +70,6 @@ extension LFTransitionViewController: UIViewControllerTransitioningDelegate {
             return TransitionForPosition(isPresenting: false, transitionStyle: transitionStyle)
         case .leftToRight,.rightToLeft:
             return TransitionForPosition(isPresenting: false, transitionStyle: transitionStyle)
-        default:
-            return nil
         }
     }
 }
