@@ -11,6 +11,6 @@ class TestViewController: LFTransitionViewController
 ```
 #### 3.present a instance of the class
 ```
-let vc = TestViewController(transitionStyle: style)
+let vc = TestViewController(transitionStyle: .scaleChange)
 present(vc, animated: true, completion: nil)
 ```
