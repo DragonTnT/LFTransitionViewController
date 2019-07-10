@@ -8,25 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		06181099214F4948008DA400 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06181098214F4948008DA400 /* MyTableViewController.swift */; };
+		062708F622D5CD4100B3CCDF /* LFPresentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062708F222D5CD4100B3CCDF /* LFPresentationVC.swift */; };
+		062708F722D5CD4100B3CCDF /* LFViewControllerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062708F322D5CD4100B3CCDF /* LFViewControllerTransition.swift */; };
+		062708F822D5CD4100B3CCDF /* LFStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062708F422D5CD4100B3CCDF /* LFStyle.swift */; };
+		062708F922D5CD4100B3CCDF /* LFTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062708F522D5CD4100B3CCDF /* LFTransitionViewController.swift */; };
 		0665C749214F5FB600121D3B /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0665C748214F5FB600121D3B /* UpdateView.swift */; };
 		0665C74B214F5FBF00121D3B /* UpdateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0665C74A214F5FBF00121D3B /* UpdateView.xib */; };
-		0665C74D214F8AB700121D3B /* TransitionForScaleOrAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0665C74C214F8AB700121D3B /* TransitionForScaleOrAlpha.swift */; };
-		0665C74F214F8F3200121D3B /* LFTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0665C74E214F8F3200121D3B /* LFTransitionViewController.swift */; };
 		0665C751214F933200121D3B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0665C750214F933200121D3B /* TestViewController.swift */; };
 		06F93F6F214F3EF700BD3C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F93F6E214F3EF700BD3C19 /* AppDelegate.swift */; };
 		06F93F74214F3EF700BD3C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F93F72214F3EF700BD3C19 /* Main.storyboard */; };
 		06F93F76214F3EF800BD3C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F93F75214F3EF800BD3C19 /* Assets.xcassets */; };
 		06F93F79214F3EF800BD3C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F93F77214F3EF800BD3C19 /* LaunchScreen.storyboard */; };
-		06F93FA0214F41BA00BD3C19 /* PresentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F93F9E214F41BA00BD3C19 /* PresentationVC.swift */; };
-		06F93FA2214F425700BD3C19 /* TransitionForPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F93FA1214F425700BD3C19 /* TransitionForPosition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06181098214F4948008DA400 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		062708F222D5CD4100B3CCDF /* LFPresentationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFPresentationVC.swift; sourceTree = "<group>"; };
+		062708F322D5CD4100B3CCDF /* LFViewControllerTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFViewControllerTransition.swift; sourceTree = "<group>"; };
+		062708F422D5CD4100B3CCDF /* LFStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFStyle.swift; sourceTree = "<group>"; };
+		062708F522D5CD4100B3CCDF /* LFTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFTransitionViewController.swift; sourceTree = "<group>"; };
 		0665C748214F5FB600121D3B /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
 		0665C74A214F5FBF00121D3B /* UpdateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateView.xib; sourceTree = "<group>"; };
-		0665C74C214F8AB700121D3B /* TransitionForScaleOrAlpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionForScaleOrAlpha.swift; sourceTree = "<group>"; };
-		0665C74E214F8F3200121D3B /* LFTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LFTransitionViewController.swift; sourceTree = "<group>"; };
 		0665C750214F933200121D3B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		06F93F6B214F3EF700BD3C19 /* TransitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F93F6E214F3EF700BD3C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,8 +40,6 @@
 		06F93F85214F3EF800BD3C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06F93F8E214F3EF800BD3C19 /* TransitionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionDemoUITests.swift; sourceTree = "<group>"; };
 		06F93F90214F3EF800BD3C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06F93F9E214F41BA00BD3C19 /* PresentationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationVC.swift; sourceTree = "<group>"; };
-		06F93FA1214F425700BD3C19 /* TransitionForPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionForPosition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +108,10 @@
 		06F93F9C214F41A600BD3C19 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
-				0665C74E214F8F3200121D3B /* LFTransitionViewController.swift */,
-				06F93FA1214F425700BD3C19 /* TransitionForPosition.swift */,
-				0665C74C214F8AB700121D3B /* TransitionForScaleOrAlpha.swift */,
-				06F93F9E214F41BA00BD3C19 /* PresentationVC.swift */,
+				062708F222D5CD4100B3CCDF /* LFPresentationVC.swift */,
+				062708F422D5CD4100B3CCDF /* LFStyle.swift */,
+				062708F522D5CD4100B3CCDF /* LFTransitionViewController.swift */,
+				062708F322D5CD4100B3CCDF /* LFViewControllerTransition.swift */,
 			);
 			path = Transition;
 			sourceTree = "<group>";
@@ -197,14 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062708F622D5CD4100B3CCDF /* LFPresentationVC.swift in Sources */,
 				06181099214F4948008DA400 /* MyTableViewController.swift in Sources */,
-				0665C74D214F8AB700121D3B /* TransitionForScaleOrAlpha.swift in Sources */,
 				0665C751214F933200121D3B /* TestViewController.swift in Sources */,
-				06F93FA0214F41BA00BD3C19 /* PresentationVC.swift in Sources */,
+				062708F822D5CD4100B3CCDF /* LFStyle.swift in Sources */,
 				06F93F6F214F3EF700BD3C19 /* AppDelegate.swift in Sources */,
+				062708F722D5CD4100B3CCDF /* LFViewControllerTransition.swift in Sources */,
+				062708F922D5CD4100B3CCDF /* LFTransitionViewController.swift in Sources */,
 				0665C749214F5FB600121D3B /* UpdateView.swift in Sources */,
-				0665C74F214F8F3200121D3B /* LFTransitionViewController.swift in Sources */,
-				06F93FA2214F425700BD3C19 /* TransitionForPosition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

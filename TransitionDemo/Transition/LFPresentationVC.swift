@@ -1,23 +1,19 @@
 //
-//  PresentationVC.swift
+//  LFPresentationVC.swift
 //  TransitionDemo
 //
 //  Created by Allen long on 2018/9/17.
 //  Copyright © 2018年 Allen long. All rights reserved.
 //
-//背景样式
-enum presentBackGroundViewType: Int {
-    case dimming = 0        //阴影
-    case glass   = 1        //玻璃
-}
+
 
 import UIKit
 
-class PresentationVC: UIPresentationController {
+class LFPresentationVC: UIPresentationController {
     //默认背景为阴影效果
-    var backViewType : presentBackGroundViewType!
+    var backViewType : LFBackGroundViewType!
     
-    init(presentedViewController: UIViewController, presentingViewController: UIViewController?, backViewType: presentBackGroundViewType = .dimming) {
+    init(presentedViewController: UIViewController, presentingViewController: UIViewController?, backViewType: LFBackGroundViewType = .dimming) {
         super.init(presentedViewController: presentedViewController, presenting: presentingViewController)
         self.backViewType = backViewType
     }

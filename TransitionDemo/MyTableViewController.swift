@@ -12,7 +12,8 @@ class MyTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         guard let style = LFTransitionStyle(rawValue: indexPath.row) else { return }
-        let vc = TestViewController(transitionStyle: style)
+        let vc = TestViewController()
+        vc.transitionStyle = style
         present(vc, animated: true, completion: nil)
     }
 }
